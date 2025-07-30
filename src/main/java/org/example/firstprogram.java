@@ -42,7 +42,6 @@ public class firstprogram {
             Thread.sleep(3000);
         driver.close();
         System.out.print("Code ran successfully");
-        //
 
     }
 }
