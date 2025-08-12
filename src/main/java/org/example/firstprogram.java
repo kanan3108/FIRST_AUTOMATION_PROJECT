@@ -14,7 +14,7 @@ import java.util.List;
 
 public class firstprogram {
     public static void main(String[] args) throws InterruptedException {
-
+//jk
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com");
@@ -28,16 +28,16 @@ public class firstprogram {
         e = driver.findElements(By.xpath("//ul[@role='listbox']//li"));
         //System.out.println("List of suggestions: "+e.size());
 
-        int i=0;
+        int m=0;
         int flag=0;
        for(WebElement find:e)
            {
            String s= find.getText();
-           i++;
+           m++;
            if (s.contains("barcelona"))
                //if (true)
                {
-            System.out.println("Suggestion is at : "+i);
+            System.out.println("Suggestion is at : "+m);
             flag=1;
                 break;}}
             if(flag==0)
