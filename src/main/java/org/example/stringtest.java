@@ -33,6 +33,7 @@ stringreverse call= new stringreverse();
         System.out.println("hello-"+isPalindrome("hello")); // false
         System.out.println("nitin-"+isPalindrome("nitin"));
         call.reverse("won desrever si gnirts");
+        call.reverse("12345'-^%*&$#@!)('");
     }
 
     }
