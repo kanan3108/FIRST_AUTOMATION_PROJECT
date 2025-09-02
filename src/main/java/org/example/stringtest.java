@@ -27,11 +27,12 @@ public class stringtest {
         System.out.print(s.charAt(i));
     }
     System.out.print("\n");
-
+stringreverse call= new stringreverse();
         System.out.println("madam-"+isPalindrome("madam")); // true
         System.out.println("Racecar-"+isPalindrome("Racecar")); // true
         System.out.println("hello-"+isPalindrome("hello")); // false
         System.out.println("nitin-"+isPalindrome("nitin"));
+        System.out.println(call.reverse("won desrever si gnirts"));
     }
 
     }
