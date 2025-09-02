@@ -32,7 +32,7 @@ stringreverse call= new stringreverse();
         System.out.println("Racecar-"+isPalindrome("Racecar")); // true
         System.out.println("hello-"+isPalindrome("hello")); // false
         System.out.println("nitin-"+isPalindrome("nitin"));
-        System.out.println(call.reverse("won desrever si gnirts"));
+        call.reverse("won desrever si gnirts");
     }
 
     }
